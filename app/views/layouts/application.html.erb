@@ -4,11 +4,52 @@
   <title>Breeze</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <!-- obvioulsy IE needs special treatment as always... -->
+  <!--[if IE 6]><%= stylesheet_link_tag 'ie6' %><![endif]-->
+  <!--[if IE 7]><%= stylesheet_link_tag 'ie7' %><![endif]-->
   <%= csrf_meta_tags %>
 </head>
 <body>
+    <div id="cloud-1"></div>
+    <div id="cloud-2"></div>
+    <div id="cloud-3"></div>
+    <div id="cloud-4"></div>
+    <div id="cloud-5"></div>
+    <div id="wrap">
+      <!-- BEGIN HEADER -->
+      <header>
+        <nav>
+          <ul>
+            <li><%= link_to "Home", root_path %></li>
+            <li><a href="blub">About</a></li>
+            <li><a href="blub">Media</a></li>
+            <li><a href="blub">Contact us</a></li>
+            <li><a href="blub">AWESOME</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- END HEADER -->
+      <!-- BEGIN HIGHLIGHTS -->
+      <section id="highlights">
+        <%= image_tag('header_gallery.png', :width => '960px', :height => '390px') %>
+        <div id="highlights-title">New artwork for the shizzle!</div>
+        <div id="highlights-navigation">1 2 3 </div>
+      </section>
+      <!-- END HIGHLIGHTS -->
+      <!-- BEGIN MAIN CONTENT -->
+      <section id="main">
+        <% flash.each do |name, msg| %>
+          <div class="<%= name %>"><%= msg %></div>
+        <% end %>
 
-<%= yield %>
-
+        <%= yield %>
+      </section>
+      <!-- END MAIN CONTENT -->
+      <!-- BEGIN RIGHT BAR -->
+      <section id="right-bar">
+        right bar
+      </section>
+      <!-- END RIGHT BAR -->
+    </div>
 </body>
 </html>

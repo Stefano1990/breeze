@@ -6,6 +6,8 @@ gem 'rails', '3.2.0.rc2'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'rake', '0.9.3.beta.1' # bundle complained for some reason.
+gem 'formtastic'
 
 
 # Gems used only for assets and not required

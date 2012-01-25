@@ -1,0 +1,7 @@
+<%=  semantic_form_for(@comment, :url => post_comments_path(params[:id])) do |f| %>
+    <%= f.inputs do %>
+        <%= f.input :author_name %>
+        <%= f.input :body %>
+    <% end %>
+    <%= f.buttons %>
+<% end %>

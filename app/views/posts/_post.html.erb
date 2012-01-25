@@ -1,0 +1,8 @@
+<article class="post">
+  <header>
+    <h1><%= post.title %></h1>
+  </header>
+  <%= post.body %> by <%= link_to post.author.name, post.author %>
+  <%= link_to "Show more", post %>
+
+</article>
