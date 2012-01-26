@@ -8,6 +8,7 @@ gem 'rails', '3.2.0.rc2'
 gem 'heroku'
 
 gem 'pg'
+gem 'sqlite3', '~> 1.3.5'
 
 #group :production do
 #  gem 'pg'
