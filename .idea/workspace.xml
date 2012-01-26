@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="56398145-d971-467d-ae86-bfca2d6c76bb" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/fonts/berlin-sans-fb-demi-bold.ttf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/breeze.iml" afterPath="$PROJECT_DIR$/.idea/breeze.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="breeze.iws" />
@@ -54,7 +51,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="31" selection-start="263" selection-end="263" vertical-scroll-proportion="0.55944055">
+            <state line="10" column="1" selection-start="169" selection-end="169" vertical-scroll-proportion="0.37296036">
               <folding />
             </state>
           </provider>
@@ -754,7 +751,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -764,7 +761,7 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27944762" sideWeight="0.67155427" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21554253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32844576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32844576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -924,7 +921,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="263" selection-end="263" vertical-scroll-proportion="0.55944055">
+        <state line="10" column="1" selection-start="169" selection-end="169" vertical-scroll-proportion="0.37296036">
           <folding />
         </state>
       </provider>
